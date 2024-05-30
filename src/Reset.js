@@ -3,9 +3,9 @@ import React from 'react'
 const Reset = (props) => {
     const {reset} = props
   return (
-    <div>
+    <span>
         <button onClick={reset}>Reset Sheep</button>
-    </div>
+    </span>
   )
 }
 

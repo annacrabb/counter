@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Increase from './Increase';
 import Decrease from './Decrease';
 import Reset from './Reset';
-import audio from './'
+// import audio from './'
 
 class App extends Component {
   constructor() {
@@ -22,7 +22,6 @@ class App extends Component {
     this.setState({
       count: this.state.count + 1
     });
-    new Audio('./')
   }
 
   decrease() {
@@ -37,18 +36,16 @@ class App extends Component {
     });
   }
 
-
-
   render() {
     return (
       <div>
         <h1>Count sheep with me!</h1>
         <h3>We currently have {this.state.count} sheep.</h3>
-        <span>
+        <div>
           <Increase increase={this.increase} />
           <Decrease decrease={this.decrease} />
           <Reset reset={this.reset} />
-        </span>
+        </div>
       </div>
     )
   }

@@ -3,9 +3,9 @@ import React from 'react'
 const Decrease = (props) => {
     const {decrease} = props
   return (
-    <div>
+    <span>
         <button onClick={decrease}>Fewer Sheep</button>
-    </div>
+    </span>
   )
 }
 
