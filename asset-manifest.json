@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/counter/static/css/main.78fcde0f.css",
-    "main.js": "/counter/static/js/main.f4d3934a.js",
+    "main.css": "/counter/static/css/main.3a79081e.css",
+    "main.js": "/counter/static/js/main.b958a7a9.js",
     "static/media/barn-sheep.jpg": "/counter/static/media/barn-sheep.040a27c0fb32eea00d7f.jpg",
     "index.html": "/counter/index.html",
-    "main.78fcde0f.css.map": "/counter/static/css/main.78fcde0f.css.map",
-    "main.f4d3934a.js.map": "/counter/static/js/main.f4d3934a.js.map"
+    "main.3a79081e.css.map": "/counter/static/css/main.3a79081e.css.map",
+    "main.b958a7a9.js.map": "/counter/static/js/main.b958a7a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.78fcde0f.css",
-    "static/js/main.f4d3934a.js"
+    "static/css/main.3a79081e.css",
+    "static/js/main.b958a7a9.js"
   ]
 }
